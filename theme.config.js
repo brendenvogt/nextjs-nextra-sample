@@ -3,10 +3,10 @@ export default {
     github: "https://github.com/brendenvogt",
     projectLink: 'https://github.com/brendenvogt/nextjs-nextra-sample', // GitHub link in the navbar
     docsRepositoryBase: 'https://github.com/brendenvogt/nextjs-nextra-sample/tree/master', // base URL for the docs repository
-    titleSuffix: ' – Nextra',
+    titleSuffix: ' – Brenden Vogt',
     nextLinks: true,
     prevLinks: true,
-    search: true,
+    search: false, // enable this when you want to implement search
     customSearch: null, // customizable, you can use algolia for example
     darkMode: true,
     footer: true,

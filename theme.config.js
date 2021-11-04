@@ -1,7 +1,8 @@
 // theme.config.js
 export default {
-    projectLink: 'https://github.com/shuding/nextra', // GitHub link in the navbar
-    docsRepositoryBase: 'https://github.com/shuding/nextra/blob/master', // base URL for the docs repository
+    github: "https://github.com/brendenvogt",
+    projectLink: 'https://github.com/brendenvogt/nextjs-nextra-sample', // GitHub link in the navbar
+    docsRepositoryBase: 'https://github.com/brendenvogt/nextjs-nextra-sample/tree/master', // base URL for the docs repository
     titleSuffix: ' – Nextra',
     nextLinks: true,
     prevLinks: true,
@@ -9,7 +10,7 @@ export default {
     customSearch: null, // customizable, you can use algolia for example
     darkMode: true,
     footer: true,
-    footerText: `MIT ${new Date().getFullYear()} © Shu Ding.`,
+    footerText: `${new Date().getFullYear()} © Brenden Vogt.`,
     footerEditLink: `Edit this page on GitHub`,
     logo: (
       <>
